@@ -4,7 +4,8 @@ def task_1() -> None:
     x: str = 'Как дела?'
     y: list = ['malchiki', 'devochki', 'tantcooyut', 'pod', 'tekhno']
     z: bool = False
-    print('q type is ', type(q), '\nw type is ', type(w), '\nx type is ', type(x), '\ny type is ', type(y), '\nz type is ', type(z))
+    print('q type is ', type(q), '\nw type is ', type(w), '\nx type is ',
+          type(x), '\ny type is ', type(y), '\nz type is ', type(z))
 
 
 # def task_1_1() -> str:
@@ -36,11 +37,11 @@ def task_2() -> None:
     print(a[0:3])
 
 
-task_2()
+# task_2()
 
 
 def task_3(a: int) -> int:
     return a**2
 
 
-print(task_3(16))
+# print(task_3(16))
