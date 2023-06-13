@@ -4,10 +4,10 @@ class Rectangle:
         self.width = width
 
     def area(self):
-        return self.height*self.width
+        return self.height * self.width
 
     def perimeter(self):
-        return 2*(self.width + self.height)
+        return 2 * (self.width + self.height)
 
 
 one = Rectangle(5, 8)
@@ -39,7 +39,7 @@ class Math:
 
 class Button_QA:
 
-    def __init__(self, text, type = 'Кнопка', loc = ''):
+    def __init__(self, text, type='Кнопка', loc=''):
         self.text = text
         self.type = type
         self.loc = loc
@@ -75,4 +75,3 @@ print(Loads_button.click())
 Dynamic_properties_button = Button_QA('Dynamic Properties')
 print(Dynamic_properties_button.text)
 print(Dynamic_properties_button.click())
-
